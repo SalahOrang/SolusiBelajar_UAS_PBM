@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@drawable/back_soal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_judulDetailPelajaran"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="50px"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+        <ImageView
+            android:id="@+id/image_detail_Pelajaran"
+            android:layout_width="345dp"
+            android:layout_height="181dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="20dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/tv_detail_Pelajaran"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_scroll_View"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:background="#FFEB3B"
+                android:text="UJIAN">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
